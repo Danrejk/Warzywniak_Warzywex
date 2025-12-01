@@ -1155,9 +1155,10 @@ body {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 3rem;
-  margin-bottom: 3rem;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
 }
 
 .footer-section h3 {
@@ -1178,10 +1179,10 @@ body {
 }
 
 .footer-description {
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
 }
 
 .social-links {
@@ -1214,10 +1215,10 @@ body {
 }
 
 .footer-links a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  transition: all 0.3s ease;
-  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  font-size: 0.98rem;
 }
 
 .footer-links a:hover {
@@ -1250,15 +1251,21 @@ body {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.9rem;
+  gap: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .footer { padding: 3rem 1rem 2rem; }
+  .footer-bottom { text-align: center; flex-direction: column; gap: 0.5rem; }
 }
 
 .footer-policies {

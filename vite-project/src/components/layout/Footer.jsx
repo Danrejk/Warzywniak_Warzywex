@@ -36,16 +36,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
-          <div className="footer-section">
-            <h3>Usługi</h3>
-            <ul className="footer-links">
-              <li><a href="#delivery">Dostawa</a></li>
-              <li><a href="#return">Zwroty</a></li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-          </div>
+          {/* Services removed per request */}
 
           {/* Contact */}
           <div className="footer-section">

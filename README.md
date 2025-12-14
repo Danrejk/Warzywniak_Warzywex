@@ -19,7 +19,7 @@ If you are developing a production application, we recommend using TypeScript wi
 - npm install axios 
 - npm install lucide-react 
 # Database
-- Import .sql file from /db. Use xampp to host database on port 5000.
+- Import .sql file from /db using xampp (port 3306).
 # Backend
 - npm install 
 - npm install nodemon 
